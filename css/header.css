@@ -44,10 +44,16 @@
 .header-btn a {
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
-  border: 2px solid #fff;
+  color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   padding: 10px 40px;
   border-radius: 5px;
+}
+
+.header-btn a:hover {
+  color: #fff;
+  border-color: #fff;
+  transition: 0.3s;
 }
 
 .header-btn1 a {
