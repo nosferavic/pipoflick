@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/Vector.svg" type="image/svg">
+  <link rel="stylesheet" href="./style/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <title>PipoFlick</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="left-side">
+      <img src="../assets/Vector.svg" alt="">
+      <h1>pipoflick</h1>
+    </div>
+    <div>
+      <nav>
+        <ul class="right-side">
+          <li><a href="#" class="list-effect">catálogo</a></li>
+          <li><a href="#" class="list-effect">planos</a></li>
+          <li class="header-btn"><a href="./signin.html">cadastre-se</a></li>
+          <li class="header-btn1"><a href="#">entrar</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <div class="signin">
+      <h1>cadastre-se</h1>
+      <div class="box">
+        <input type="text" id="nome" name="nome" placeholder="Nome" required>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+      <div class="box">
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
+        <ion-icon name="person"></ion-icon>
+      </div>
+      <div class="box">
+        <input type="number" id="cpf" name="cpf" placeholder="CPF" required>
+        <ion-icon name="id-card-outline"></ion-icon>
+      </div>
+      <div class="box">
+        <input type="email" id="email" name="email" placeholder="E-Mail" required>
+        <ion-icon name="mail-outline"></ion-icon>
+      </div>
+      <div class="box">
+        <input type="password" id="senha" name="senha" placeholder="Senha" required>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </div>
+      <div class="check">
+        <input type="checkbox" id="check" name="check" required>
+        <label for="#">Li e aceito os <a href="#" class="termos">Termos de Serviço</a></label>
+      </div>
+      <button href="#" class="sign-btn">Ver Planos</button>
+    </div>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
