@@ -1,0 +1,74 @@
+.login {
+  background: #00033d;
+  padding: 4rem 3.125rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fec700;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+input {
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+  width: 200px;
+  padding: 1rem 2rem;
+  padding-right: 3rem;
+  border-radius: 5px;
+  background: rgba(139, 139, 255, 0.1);
+  border: none;
+}
+
+.box {
+  position: relative;
+}
+
+ion-icon {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 60px;
+}
+
+.check {
+  font-size: 1.2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+}
+
+.check input {
+  width: auto;
+}
+
+.forgot {
+  color: #fec700;
+}
+
+.login-btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2e2400;
+  background: #fec700;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #534b00;
+  cursor: pointer;
+}

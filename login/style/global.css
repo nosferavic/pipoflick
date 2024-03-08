@@ -1,0 +1,26 @@
+@import url("./header.css");
+@import url("./main.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Familjen Grotesk", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0 auto;
+  background: #000028;
+}
+
+main {
+  margin-top: 200px;
+  display: grid;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
