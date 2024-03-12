@@ -1,0 +1,181 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.plan {
+  display: flex;
+  gap: 50px;
+}
+
+.basico,
+.pro,
+.premium {
+  background: #00033d;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background: linear-gradient(to right, #91f, #1af);
+  padding: 1rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+dl {
+  display: flex;
+  flex-direction: column;
+}
+
+dt {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+  position: relative;
+}
+
+dt::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: -3px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+dd {
+  font-size: 1.5rem;
+  color: #e7e7e7;
+}
+
+.plan-btn,
+.finish {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2e2400;
+  background: #fec700;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #534b00;
+  cursor: pointer;
+  text-align: center;
+  margin-top: auto;
+}
+
+.plan-btn:hover,
+.plan-btn:focus,
+.finish:hover,
+.finish:focus {
+  color: black;
+}
+
+.finish {
+  font-size: 1rem;
+  margin-top: 50px;
+  width: 100%;
+}
+
+ion-icon {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+}
+
+input::placeholder {
+  color: #fff;
+  font-size: 1rem;
+}
+
+input,
+select {
+  font-size: 1.2rem;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  padding-right: 3rem;
+  border-radius: 5px;
+  background: rgba(139, 139, 255, 0.1);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+}
+
+.input1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.payment {
+  background: #00033d;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.input label {
+  text-transform: uppercase;
+}
+
+.payment img {
+  max-width: 50px;
+}
+
+.paycontent h1 {
+  font-size: 2rem;
+}
+
+.paycontent h2 {
+  font-size: 1.25rem;
+  color: #8e8e8e;
+}
+
+/* Estilizando as opções dos selects */
+option {
+  background: #00033d;
+  color: #fff;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"]::-moz-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"]::-o-calendar-picker-indicator {
+  display: none;
+}
+
+input[type="date"]::-ms-calendar-picker-indicator {
+  display: none;
+}

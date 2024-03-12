@@ -58,23 +58,6 @@ dd {
   font-size: 1.5rem;
 }
 
-/*input {
-  font-size: 1.2rem;
-  color: #fff;
-  border: none;
-  width: 200px;
-  padding: 1rem 2rem;
-  padding-right: 3rem;
-  border-radius: 5px;
-  background: rgba(139, 139, 255, 0.1);
-  border: none;
-}*/
-
-.box {
-  position: relative;
-}
-
-
 .plan-btn {
   font-weight: bold;
   text-transform: uppercase;
@@ -88,19 +71,8 @@ dd {
   margin-top: auto;
 }
 
-
-
 .plan-btn:hover,
 .plan-btn:focus {
   color: black;
   cursor: pointer;
 }
-
-ion-icon {
-  position: absolute;
-  font-size: 1.4rem;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 30px;
-}
-

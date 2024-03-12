@@ -7,6 +7,7 @@
   font-family: "Familjen Grotesk", sans-serif;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
 
