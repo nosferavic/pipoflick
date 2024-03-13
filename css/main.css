@@ -134,4 +134,7 @@ h4 {
     margin: 20px;
     flex-direction: column;
   }
+  .main-container {
+    padding-top: 50px;
+  }
 }
