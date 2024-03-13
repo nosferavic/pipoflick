@@ -86,7 +86,7 @@ dd {
 
 .finish {
   font-size: 1rem;
-  margin-top: 50px;
+  margin-top: 125px;
   width: 100%;
 }
 
@@ -120,11 +120,6 @@ select {
   gap: 50px;
 }
 
-.input1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .payment {
   background: #00033d;
   padding: 3rem;
@@ -141,6 +136,15 @@ select {
   flex-direction: column;
   margin-top: 10px;
   gap: 5px;
+}
+
+.input-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input-1 input {
+  width: 100%;
 }
 
 .input label {
@@ -184,12 +188,17 @@ input[type="date"]::-ms-calendar-picker-indicator {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .container {
     display: flex;
     flex-direction: column;
     gap: 25px;
     margin: 10px;
+  }
+  .input-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 
   .payment {
