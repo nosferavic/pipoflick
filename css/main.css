@@ -32,6 +32,7 @@
 
 .right-content {
   text-align: center;
+  width: 100%;
 }
 
 .title-text {
@@ -83,7 +84,7 @@ h4 {
   border-radius: 5px;
   padding: 8px;
   position: absolute;
-  left: 50px;
+  left: 63px;
   top: -1rem;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
@@ -107,7 +108,7 @@ h4 {
   padding: 10px 40px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1540px) {
   .main-container {
     display: flex;
     flex-direction: column;
@@ -116,5 +117,21 @@ h4 {
 
   .left-content {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .planos {
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 540px) {
+  .planos {
+    max-width: 500px;
+    margin: 20px;
+    flex-direction: column;
   }
 }
