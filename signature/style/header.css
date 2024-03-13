@@ -120,3 +120,51 @@
   right: 100%;
   transition: width 0.3s, right 0.3s;
 }
+
+@media (max-width: 1440px) {
+  .right-side {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .left-side img {
+    display: none;
+  }
+  .right-side {
+    gap: 10px;
+  }
+
+  .header-btn a {
+    padding: 5px 20px;
+  }
+  .header-btn1 a {
+    padding: 5px 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .left-side img {
+    display: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-side,
+  .right-side {
+    margin: 0 auto;
+  }
+
+  .right-side {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .right-side {
+    display: none;
+  }
+}
