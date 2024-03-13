@@ -78,18 +78,26 @@ dd {
   cursor: pointer;
 }
 
-@media (max-width:1520px){
-.plan{
-  gap: 30px;
-  margin: 20px;
-}
+@media (min-width: 1520px) {
+  .pro,
+  .premium,
+  .basico {
+    width: 22.5rem;
+  }
 }
 
-@media (max-width:1200px){
-  .plan{
+@media (max-width: 1520px) {
+  .plan {
+    gap: 30px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .plan {
     gap: 20px;
     margin: 20px;
-  
+
     flex-direction: column;
   }
-  }
+}
