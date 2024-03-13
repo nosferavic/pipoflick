@@ -85,8 +85,12 @@ dd {
 
 .finish {
   font-size: 1rem;
-  margin-top: 140px;
+  margin-top: 75px;
   width: 100%;
+}
+
+.finish1 {
+  margin-top: 140px;
 }
 
 ion-icon {
