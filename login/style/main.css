@@ -72,3 +72,33 @@ ion-icon {
   border: 1px solid #534b00;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  main {
+    margin-top: 50px !important;
+  }
+
+
+  .check {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+
+  .check label {
+    text-align: center;
+  }
+
+  .forgot {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+
+  ion-icon {
+    position: absolute;
+    font-size: 1.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+  }
+}
