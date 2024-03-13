@@ -74,7 +74,6 @@ dd {
   border: 1px solid #534b00;
   cursor: pointer;
   text-align: center;
-  margin-top: auto;
 }
 
 .plan-btn:hover,
@@ -86,7 +85,7 @@ dd {
 
 .finish {
   font-size: 1rem;
-  margin-top: 125px;
+  margin-top: 140px;
   width: 100%;
 }
 
