@@ -20,10 +20,10 @@
       <h1><a href="../index.html">pipoflick</a></h1>
     </div>
     <div>
-      <nav>
+      <nav aria-label="Primária">
         <ul class="right-side">
           <li class="navbase"><a href="#" class="list-effect">catálogo</a></li>
-          <li class="navbase"><a href="./plan/plan.html" class="list-effect">planos</a></li>
+          <li class="navbase"><a href="../plan/plan.html" class="list-effect">planos</a></li>
           <li class="header-btn"><a href="../sign-in/signin.html">cadastre-se</a></li>
           <li class="header-btn1"><a href="./login.html">entrar</a></li>
         </ul>
@@ -32,23 +32,23 @@
 
   <main>
     <form action="">
-    <div class="login">
-      <h1>Entrar</h1>
-      <div class="box">
-        <input type="email" id="email" name="email" placeholder="E-Mail" required>
-        <ion-icon name="mail-outline"></ion-icon>
+      <div class="login">
+        <h1>Entrar</h1>
+        <div class="box">
+          <input type="email" id="email" name="email" placeholder="E-Mail" required>
+          <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="box">
+          <input type="password" id="senha" name="senha" placeholder="Senha" required>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </div>
+        <div class="check">
+          <input type="checkbox" id="check" name="check">
+          <label for="check">Manter conectado</label>
+          <a href="#" class="forgot">Esqueci minha senha</a>
+        </div>
+        <button href="#" class="login-btn">Login</button>
       </div>
-      <div class="box">
-        <input type="password" id="senha" name="senha" placeholder="Senha" required>
-        <ion-icon name="lock-closed-outline"></ion-icon>
-      </div>
-      <div class="check">
-        <input type="checkbox" id="check" name="check">
-        <label for="check">Manter conectado</label>
-        <a href="#" class="forgot">Esqueci minha senha</a>
-      </div>
-      <button href="#" class="login-btn">Login</button>
-    </div>
     </form>
   </main>
 
