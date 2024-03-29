@@ -78,7 +78,7 @@ h4 {
 
 .plan-box1::after {
   content: "Mais Popular";
-  background: #fec700;
+  background: linear-gradient(to bottom, #fec700, #FFAA00);
   color: #2e2400;
   font-weight: bold;
   border-radius: 5px;
@@ -97,7 +97,7 @@ h4 {
 }
 
 .plan-btn {
-  background: #fec700;
+  background: linear-gradient(to bottom, #fec700, #FFAA00);
   border: 1px solid #534b00;
   color: #2e2400;
   border-radius: 5px;

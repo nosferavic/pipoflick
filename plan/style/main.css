@@ -62,7 +62,7 @@ dd {
   font-weight: bold;
   text-transform: uppercase;
   color: #2e2400;
-  background: #fec700;
+  background: linear-gradient(to bottom, #fec700, #FFAA00);
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #534b00;
