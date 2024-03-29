@@ -108,6 +108,10 @@ h4 {
   padding: 10px 40px;
 }
 
+.plan-btn:hover{
+  color: #120E00;
+}
+
 @media (max-width: 1540px) {
   .main-container {
     display: flex;
