@@ -131,6 +131,10 @@
   border-color: #fec700;
 }
 
+.navbase a.link-ativo {
+  color: #fff;
+}
+
 #btn-mobile {
   display: none;
 }

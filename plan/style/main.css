@@ -95,10 +95,17 @@ dd {
 }
 
 @media (max-width: 1100px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr);
+    gap: 50px;
+    margin: 0 auto;
+  }
+
   .plan {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 50px;
+      gap: 50px;
     margin: 0 auto;
   }
 
@@ -117,23 +124,20 @@ dd {
 }
 
 @media (max-width: 800px) {
-  .plan {
+  .container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 10px;
   }
 
-  .premium,
-  .pro,
-  .basico {
-    width: 270px;
-  }
 }
 
-  @media (max-width: 400px){
-    .premium,
-    .pro,
-    .basico {
-      width: auto;
-      padding: 2rem;
-    }
-  }
+@media (max-width: 675px){
+
+.plan{
+display: flex;
+flex-direction: column;
+}
+
+}

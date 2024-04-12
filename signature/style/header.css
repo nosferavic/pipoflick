@@ -126,6 +126,10 @@
   transition: width 0.3s, right 0.3s;
 }
 
+.navbase a.link-ativo {
+  color: #fff;
+}
+
 .header-btn a.link-ativo {
   color: #fff;
   border-color: #fec700;
