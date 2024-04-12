@@ -1,3 +1,4 @@
+//menu hamburguer
 const btnMobile = document.getElementById("btn-mobile");
 
 function toggleMenu(event) {
@@ -13,3 +14,17 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+//menu ativo
+const links = document.querySelectorAll('#menu a')
+function ativarLink(link){
+  const url =  location.href;
+  const href = link.href;
+
+  url.includes(href)
+  if(url.includes(href)){
+link.classList.add('link-ativo')
+  }
+}
+
+links.forEach(ativarLink)
