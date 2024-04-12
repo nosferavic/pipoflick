@@ -89,7 +89,7 @@
   transition: width 0.3s forward;
 }
 
-.list-effect:hover::before {
+.navbase a:hover::before, .navbase a.link-ativo::before{
   width: 50%;
   left: 0;
   transition: width 0.3s;
@@ -112,7 +112,7 @@
   transition: width 0.3s forward;
 }
 
-.list-effect:hover::after {
+.navbase a:hover::after, .navbase a.link-ativo::after {
   width: 50%;
   right: 0;
   transition: width 0.3s;
@@ -122,6 +122,15 @@
   width: 0px;
   right: 100%;
   transition: width 0.3s, right 0.3s;
+}
+
+#menu a.link-ativo{
+  color: #fff;
+}
+
+.header-btn a.link-ativo{
+  color: #fff;
+  border-color: #fec700;
 }
 
 #btn-mobile {
