@@ -3,7 +3,7 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.signin {
+.signup {
   background: #00033d;
   padding: 4rem 3.125rem;
   border-radius: 5px;
@@ -76,7 +76,7 @@ ion-icon {
   font-weight: bold;
   text-transform: uppercase;
   color: #2e2400;
-  background: linear-gradient(to bottom, #fec700, #FFAA00);
+  background: linear-gradient(to bottom, #fec700, #ffaa00);
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #534b00;
@@ -108,8 +108,7 @@ input[type="date"]::-ms-calendar-picker-indicator {
     gap: 0rem;
   }
 
-
-  .signin {
+  .signup {
     padding: 3rem 2.125rem;
     margin: 0px auto 20px 0px;
   }
