@@ -22,11 +22,11 @@ input::placeholder {
   font-size: 1rem;
 }
 
-input {
+.email, .senha {
   font-size: 1.2rem;
   color: #fff;
   border: none;
-  width: 200px;
+  width: 250px;
   padding: 1rem 2rem;
   padding-right: 3rem;
   border-radius: 5px;
@@ -43,7 +43,7 @@ ion-icon {
   font-size: 1.4rem;
   top: 50%;
   transform: translateY(-50%);
-  right: 60px;
+  right: 18px;
 }
 
 .check {
@@ -70,7 +70,7 @@ ion-icon {
   font-weight: bold;
   text-transform: uppercase;
   color: #2e2400;
-  background: linear-gradient(to bottom, #fec700, #FFAA00);
+  background: linear-gradient(to bottom, #fec700, #ffaa00);
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #534b00;
@@ -80,6 +80,10 @@ ion-icon {
 @media (max-width: 500px) {
   main {
     margin-top: 50px !important;
+  }
+
+  .email, .senha {
+    width: 150px;
   }
 
   .check {
@@ -104,4 +108,37 @@ ion-icon {
     transform: translateY(-50%);
     right: 20px;
   }
+}
+
+.check input {
+  margin: 0;
+  position: relative;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgba(139, 139, 255, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.check input:after {
+  content: '';
+  position: absolute;
+  width: 10px;                         
+  height: 10px;
+  background-color:#fff; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-radius: 2px;
+}
+
+.check input:checked{
+  border: 2px solid #fec700;
+}
+
+.check input:checked:after {
+  opacity: 1;
 }

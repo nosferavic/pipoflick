@@ -37,27 +37,28 @@
   </header>
 
   <main>
-    <form action="">
+    <form action="../catalog/catalog.html" method="get">
       <div class="login">
         <h1>Entrar</h1>
         <div class="box">
-          <input type="email" id="email" name="email" placeholder="E-Mail" required>
+          <input type="email" class="email" id="email" name="email" placeholder="E-Mail" required>
           <ion-icon name="mail-outline"></ion-icon>
         </div>
         <div class="box">
-          <input type="password" id="senha" name="senha" placeholder="Senha" required>
+          <input type="password" class="senha" id="senha" name="senha" placeholder="Senha" required>
           <ion-icon name="lock-closed-outline"></ion-icon>
         </div>
         <div class="check">
           <input type="checkbox" id="check" name="check">
-          <label for="check">Manter conectado</label>
+          <label for="check">Exibir senha</label>
           <a href="#" class="forgot">Esqueci minha senha</a>
         </div>
-        <button href="#" class="login-btn">Login</button>
+        <button type="submit" href="../catalog/catalog.html" class="login-btn">Login</button>
       </div>
     </form>
   </main>
 
+  <script src="./engine/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="../js/script.js"></script>
