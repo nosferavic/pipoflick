@@ -194,6 +194,12 @@
 }
 
 @media (max-width: 1100px) {
+
+  .description{
+    max-width: max-content;
+    text-align: center;
+  }
+
   .catalogo {
     display: flex;
     margin: 0 auto;
