@@ -1,8 +1,8 @@
-# 🍿 **Pipoflick - Plataforma de Streaming**  
+# 🍿 **Pipoflick - Plataforma de Streaming**
 
 Bem-vindo ao **Pipoflick**, uma plataforma de streaming desenvolvida para estudos! Este projeto combina funcionalidades modernas de UI/UX, como menu responsivo, sistema de design com paleta de cores personalizada, e elementos interativos como um carrossel de imagens e abas dedicadas para login, cadastro e pagamento.
 
-## 📖 **Descrição do Projeto**  
+## 📖 **Descrição do Projeto**
 
 O **Pipoflick** é um site de streaming fictício que simula a experiência de plataformas reais. Ele oferece:  
 - Um catálogo com um slider de miniaturas de filmes.  
@@ -15,7 +15,7 @@ Este projeto foi criado para fins de estudo, focando em boas práticas de desenv
 
 ---
 
-## 🎯 **Funcionalidades**  
+## 🎯 **Funcionalidades**
 
 ### **Interface do Usuário**  
 - **Slider de imagens no catálogo**: Um carrossel dinâmico para exibição de filmes disponíveis.  
@@ -32,14 +32,15 @@ Este projeto foi criado para fins de estudo, focando em boas práticas de desenv
 - Um sistema de design coeso, com uma paleta de cores personalizada, garantindo estética e acessibilidade.  
 
 ### **Abas Funcionais**  
-- **Login**: Permite que usuários insiram suas credenciais para acessar a plataforma.  
+- **Login**: Permite que usuários insiram suas credenciais para acessar a plataforma, com um botão "Exibir Senha" para facilitar a inserção da senha.  
 - **Cadastro**: Formulário simples e intuitivo para novos usuários.  
 - **Pagamento**: Simula a integração de um sistema de pagamento para acesso aos conteúdos premium.  
+- **Redirecionamento após login**: Após a submissão do formulário de login, o usuário é redirecionado automaticamente para o catálogo de filmes.  
 
 ---
 
-## 🛠️ **Tecnologias Utilizadas**  
+## 🛠️ **Tecnologias Utilizadas**
 
 - **HTML5**: Estruturação semântica da página.  
 - **CSS3**: Estilização avançada com responsividade e animações.  
-- **JavaScript (ES6)**: Interatividade, como o slider do catálogo e o menu hamburguer.  
+- **JavaScript (ES6)**: Interatividade, como o slider do catálogo e o menu hambúrguer.  
