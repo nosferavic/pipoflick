@@ -63,7 +63,7 @@
 .description {
   grid-column: 1/ -1;
   font-weight: bold;
-  color: #fff;
+  color: #e7e7e7;
   max-width: 45ch;
 }
 
