@@ -194,10 +194,18 @@ input[type="date"]::-ms-calendar-picker-indicator {
 }
 
 @media (max-width: 800px) {
+  .paycontent h1 {
+    font-size: 1.5rem;
+  }
+
+  .paycontent h2 {
+    font-size: 1.1rem;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     margin: 10px;
   }
   .input-1 {
@@ -207,6 +215,12 @@ input[type="date"]::-ms-calendar-picker-indicator {
   }
 
   .payment {
-    padding: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 344px) {
+  .input .inputmin{
+    width: 292px;
   }
 }
