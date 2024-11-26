@@ -79,8 +79,12 @@
   box-shadow: 8px 8px 10px rgba(0, 0, 20, 0.9);
 }
 
+.catalogo{
+  margin-top: 20px;
+}
+
 .movies {
-  margin-top: 40px;
+  margin-top: 10px;
   display: none;
   gap: 40px;
   justify-content: center;
@@ -184,6 +188,13 @@
 }
 
 @media (max-width: 1100px) {
+
+  .catalogo{
+    font-size: .8rem;
+    display: flex;
+        margin: 0 auto;
+      }
+
   .movies img {
     max-width: 100%;
   }
@@ -223,7 +234,7 @@
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 700px) {
   .left-side img {
     max-width: 270px;
   }
