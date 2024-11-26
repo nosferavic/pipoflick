@@ -27,11 +27,11 @@ input::placeholder {
   font-size: 1rem;
 }
 
-input {
+.email, .senha, .sobrenome, .nome, .cpf {
   font-size: 1.2rem;
   color: #fff;
   border: none;
-  width: 200px;
+  width: 250px;
   padding: 1rem 2rem;
   padding-right: 3rem;
   border-radius: 5px;
@@ -48,7 +48,7 @@ ion-icon {
   font-size: 1.4rem;
   top: 50%;
   transform: translateY(-50%);
-  right: 30px;
+  right: 1rem;
 }
 
 .check {
@@ -59,8 +59,38 @@ ion-icon {
   position: relative;
 }
 
+
 .check input {
-  width: auto;
+  margin: 0;
+  position: relative;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgba(139, 139, 255, 0.1);
+  border: none;
+  cursor: pointer;
+}
+
+.check input:after {
+  content: '';
+  position: absolute;
+  width: 10px;                         
+  height: 10px;
+  background-color:#fff; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-radius: 2px;
+}
+
+.check input:checked{
+  border: 2px solid #fec700;
+}
+
+.check input:checked:after {
+  opacity: 1;
 }
 
 .termos {
@@ -99,17 +129,38 @@ input[type="date"]::-ms-calendar-picker-indicator {
   display: none;
 }
 
+@media (max-width: 520px) {
+
+  .signup {
+    padding: 2rem 1.7rem;
+    margin: 0px auto 20px 0px;
+  }
+}
+
 @media (max-width: 392px) {
+
+  .email, .senha, .sobrenome, .nome, .cpf {
+    width: 220px;
+  }
+
   ion-icon {
-    right: 25px;
+    right: 1rem;
   }
 
   .check {
-    gap: 0rem;
+    gap: .3rem;
   }
 
   .signup {
-    padding: 3rem 2.125rem;
-    margin: 0px auto 20px 0px;
+    padding: 2rem .8rem;
+  }
+}
+
+@media (max-width: 330px){
+  ion-icon {
+    right: 3rem;
+  }
+  .email, .senha, .sobrenome, .nome, .cpf {
+    width: 150px;
   }
 }
