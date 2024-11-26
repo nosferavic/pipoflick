@@ -128,7 +128,7 @@
 
 .button-slide button.off {
   opacity: 0.4;
-  cursor: none;
+  cursor:auto;
 }
 
 .left-side img {
