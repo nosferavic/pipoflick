@@ -3,7 +3,7 @@
 }
 
 .header-content {
-  max-width: 1540px;
+  max-width: 1440px;
   text-transform: capitalize;
   display: flex;
   flex-direction: row;
@@ -12,10 +12,6 @@
   align-items: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-}
-
-.header img {
-  max-width: 50px;
 }
 
 .left-side {

@@ -5,7 +5,7 @@
 }
 
 .main-content {
-  max-width: 1540px;
+  max-width: 1440px;
   margin: 50px auto;
 }
 
@@ -82,7 +82,7 @@ dd {
   cursor: pointer;
 }
 
-@media (min-width: 1520px) {
+@media (min-width: 1440px) {
   .pro,
   .premium,
   .basico {
