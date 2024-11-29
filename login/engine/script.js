@@ -1,3 +1,4 @@
+if(document.documentElement.classList.contains('js')){
 const check = document.getElementById("check");
 const password = document.querySelector(".senha");
 
@@ -10,4 +11,4 @@ function alterType() {
 }
 
 check.addEventListener("change", alterType);
-
+}
