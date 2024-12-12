@@ -12,3 +12,10 @@ function alterType() {
 
 check.addEventListener("change", alterType);
 }
+
+
+//login
+
+const mailValue = ''
+const passwordValue = ''
+

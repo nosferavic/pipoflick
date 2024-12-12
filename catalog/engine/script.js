@@ -1,17 +1,49 @@
 if (document.documentElement.classList.contains("js")) {
   const movies = document.querySelectorAll(".movies img");
   const contents = document.querySelectorAll(".content");
+  const imageFilms = document.querySelectorAll(".right-side img");
+  const backGroundCover = document.querySelector(".background-cover");
+
+
+  const initialMovie = movies[0];
+  const initialClass = initialMovie.classList[0];
+  initialMovie.classList.add("active");
+
+
+  imageFilms.forEach((film) => {
+    const attribute = film.getAttribute("src");
+    if (film.classList.contains(initialClass)) {
+      backGroundCover.style.backgroundImage = `url('${attribute}')`;
+    }
+  });
+
+
+  contents.forEach((content) => {
+    if (content.classList.contains(initialClass)) {
+      content.classList.add("active");
+    }
+  });
+
 
   movies.forEach((movie) => {
     movie.addEventListener("click", () => {
       movies.forEach((img) => img.classList.remove("active"));
       contents.forEach((content) => content.classList.remove("active"));
+
       movie.classList.add("active");
       const classlist = movie.classList[0];
 
+      imageFilms.forEach((film) => {
+        const attribute = film.getAttribute("src");
+        if (film.classList.contains(classlist)) {
+          backGroundCover.style.backgroundImage = `url('${attribute}')`;
+        }
+      });
+
       contents.forEach((content) => {
-        if (content.classList.contains(classlist))
+        if (content.classList.contains(classlist)) {
           content.classList.add("active");
+        }
       });
     });
   });
