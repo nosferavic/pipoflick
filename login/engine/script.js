@@ -1,5 +1,5 @@
 if (document.documentElement.classList.contains('js')) {
-  const check = document.getElementById("check");
+  const check = document.querySelector(".checkPass");
   const passwordLogin = document.querySelector(".senhaLogin");
   const passwordSignUp = document.querySelector(".senhaSignUp");
   const emailSignUp = document.querySelector(".emailSignUp");
